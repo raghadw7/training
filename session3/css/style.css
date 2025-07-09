@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    background-color:black;
+
+}
+.text-white{
+    color: aliceblue;
+}
+.text-gray{
+    color:lightgray;
+}
+.d-inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+ul{
+    width: 30%;
+    margin-top: 2%;
+    list-style: none;
+}
+.margin-left{
+    margin-left: 3%;
+}
+
+nav li{
+     margin-left: 4%;
+}
+.banner{
+    background-image: url(../images.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: center;
+    background-position-y: center;
+    height: 600px;
+
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.416);
+    height: 600px;
+}
+hr{
+    width: 15%;
+    margin: 1%;
+    padding: 3px solid;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 2px solid;
+    padding: 2% 3%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.right{
+    
+    width: 100%;
+  background-color: white;
+  /* padding: 30px; */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-left: 100px;
+
+  
+ 
+  
+    
+}
+form h3{
+  padding: 2%;
+    padding-bottom: 3%;
+    margin: 0;
+    text-align: center;
+    
+}
+form input{
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    padding: 7%;
+    margin-top: 7%;
+    width: 100%;
+}
+.submit-button{
+    width: 100%;
+    background-color:  rgb(237, 168, 71);
+    border: none;
+    padding: 8%;
+    margin-top: 6%;
+border-radius: 5px;
+cursor: pointer;
+}
