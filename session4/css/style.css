@@ -1,0 +1,228 @@
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    /* font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    background-color:black;
+
+}
+.text-white{
+    color: aliceblue;
+}
+.text-gray{
+    color:lightgray;
+}
+.d-inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.d-block{
+    display:block;
+    /* vertical-align: top; */
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+ul{
+    width: 30%;
+    margin-top: 2%;
+    list-style: none;
+}
+
+.margin-left{
+    margin-left: 3%;
+}
+
+nav li{
+     margin-left: 4%;
+}
+.banner{
+    background-image: url(../pexels-pixabay-302769.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: center;
+    background-position-y: center;
+    height: 600px;
+
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.499);
+    height: 600px;
+}
+hr{
+    width: 15%;
+    margin: 1%;
+    padding: 3px solid;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 2px solid;
+    padding: 2% 3%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.left-div{
+    width: 50%;
+    margin-top: 5%;
+}
+.right-div{
+    width: 50%;
+
+}
+.right{
+    
+    width: 50%;
+  background-color: white;
+  /* padding: 30px; */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+   margin-top: 170px;
+   margin-left: 140px;    
+    
+}
+form h3{
+  padding: 4%;
+    /* padding-bottom: 3%; */
+    margin: 0;
+   background-color:rgb(237, 234, 234);
+    text-align: center;
+    
+}
+form input{
+    border: none;
+    border-bottom: 2px solid rgba(169, 169, 169, 0.518);
+    padding: 3%;
+    margin: 5%;
+    margin-left: 15%;
+    
+    /* width: 100%; */
+}
+.submit-button{
+    width: 100%;
+    background-color:  rgb(237, 168, 71);
+    border: none;
+    padding: 5%;
+    margin-top: 6%;
+border-radius: 5px;
+cursor: pointer;
+}
+.icons{
+   
+    font-size: 50px;
+    margin-left: 17%;
+    margin-top: 3%;
+    
+}
+.icons i{
+     color: rgb(180, 178, 178);
+}
+.a-margin{
+    margin-left: 15px;
+    margin-right:15px;
+    
+}
+
+.tabs{
+    background-color:rgb(52, 52, 52) ;
+    font-weight: 400;
+    padding: 25%;
+    /* padding-top: 30%; */
+    margin-bottom: 0.5%;
+    width: 150px;
+    text-align: center;
+    border-radius: 3%;
+   
+    
+}
+.tabs-mar{
+     margin-top: 10%;
+    
+}
+.btn{
+     background-color: rgb(237, 168, 71) ;
+    border:none;
+    border-radius: 4px;
+    padding: 3% 4%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.reflected-vertical{
+    transform: scaleY(-1);
+    
+
+}
+.marg-top{
+     margin-top: -150px;
+     opacity:0.3 ;
+}
+
+.wid{
+    width: 350px;
+}
+.hrr{
+    width: 35%;
+   background-color:rgb(237, 168, 71) ;
+    border: none;
+    /* padding:3px solid; */
+    height: 3px;
+    
+    
+}
+.margg{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.margii{
+   margin-top:  10%;
+}
+/*  */
+.msgbtn{
+    padding: 1%;
+    border-radius: 2%;
+    border: none;
+    background-color:rgb(237, 168, 71)  ;
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 46%;
+    margin-bottom: 4%;
+
+
+}
+.foot{
+    background-color: black;
+    padding: 2%;
+}
+.foot-icon{
+margin-left: 35%;
+font-size: 20px;
+
+
+}
+.foot-icon i{
+  color:rgb(180, 178, 178);
+}
