@@ -10,7 +10,5 @@ form.addEventListener("submit" ,function(event){
     <p>name: ${email}</p>
     `;
     result.appendChild(div)
-console.log(name)
-console.log(email)
 
 });
